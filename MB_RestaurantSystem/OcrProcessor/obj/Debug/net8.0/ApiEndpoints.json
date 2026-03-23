@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "OcrProcessor.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_0",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OcrProcessor.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_1",
+    "RelativePath": "",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "envelope",
+        "Type": "OcrProcessor.Models.PubSubPushEnvelope",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

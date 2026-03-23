@@ -1,0 +1,236 @@
+﻿@model MenuWebApp.Models.UploadMenuViewModel
+
+@{
+    ViewData["Title"] = "Upload Menus";
+}
+
+<h2 class="mb-4">Upload Restaurant Menus</h2>
+
+<div id="globalMessage"></div>
+
+<form id="uploadForm">
+    <div class="mb-3">
+        <label asp-for="RestaurantId" class="form-label"></label>
+        <input asp-for="RestaurantId" class="form-control" placeholder="e.g. vecchia-napoli-sliema" />
+        <span asp-validation-for="RestaurantId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="RestaurantName" class="form-label"></label>
+        <input asp-for="RestaurantName" class="form-control" placeholder="e.g. Vecchia Napoli Sliema" />
+        <span asp-validation-for="RestaurantName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Files" class="form-label">Menu Images</label>
+        <input asp-for="Files" id="filesInput" type="file" class="form-control" multiple accept=".jpg,.jpeg,.png,.webp" />
+        <span asp-validation-for="Files" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Upload Menu Images</button>
+</form>
+
+<hr class="my-4" />
+
+<h4>Upload Progress</h4>
+<div id="progressContainer"></div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        const uploadForm = document.getElementById("uploadForm");
+        const filesInput = document.getElementById("filesInput");
+        const progressContainer = document.getElementById("progressContainer");
+        const globalMessage = document.getElementById("globalMessage");
+
+        function escapeHtml(text) {
+            const div = document.createElement("div");
+            div.innerText = text;
+            return div.innerHTML;
+        }
+
+        function renderProgressBars(files) {
+            progressContainer.innerHTML = "";
+
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+
+                const wrapper = document.createElement("div");
+                wrapper.className = "mb-3";
+                wrapper.innerHTML = `
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>${escapeHtml(file.name)}</span>
+                        <span id="status-${i}">Waiting...</span>
+                    </div>
+                    <div class="progress">
+                        <div id="progress-bar-${i}"
+                             class="progress-bar"
+                             role="progressbar"
+                             style="width: 0%">
+                            0%
+                        </div>
+                    </div>
+                `;
+
+                progressContainer.appendChild(wrapper);
+            }
+        }
+
+        function updateBar(index, percent, statusText) {
+            const bar = document.getElementById(`progress-bar-${index}`);
+            const status = document.getElementById(`status-${index}`);
+
+            if (bar) {
+                bar.style.width = percent + "%";
+                bar.innerText = percent + "%";
+            }
+
+            if (status) {
+                status.innerText = statusText;
+            }
+        }
+
+        function markSuccess(index) {
+            const bar = document.getElementById(`progress-bar-${index}`);
+            const status = document.getElementById(`status-${index}`);
+
+            if (bar) {
+                bar.style.width = "100%";
+                bar.innerText = "100%";
+                bar.classList.add("bg-success");
+            }
+
+            if (status) {
+                status.innerText = "Completed";
+            }
+        }
+
+        function markFailure(index, message) {
+            const bar = document.getElementById(`progress-bar-${index}`);
+            const status = document.getElementById(`status-${index}`);
+
+            if (bar) {
+                bar.classList.add("bg-danger");
+            }
+
+            if (status) {
+                status.innerText = "Failed";
+            }
+
+            const errorDiv = document.createElement("div");
+            errorDiv.className = "text-danger small mt-1";
+            errorDiv.innerText = message;
+
+            progressContainer.children[index].appendChild(errorDiv);
+        }
+
+        function uploadSingleFile(file, index, restaurantId, restaurantName, menuId) {
+            return new Promise((resolve, reject) => {
+                const formData = new FormData();
+                formData.append("RestaurantId", restaurantId);
+                formData.append("RestaurantName", restaurantName);
+                formData.append("MenuId", menuId)
+                formData.append("File", file);
+
+                const xhr = new XMLHttpRequest();
+                xhr.open("POST", "/api/upload-menu-file", true);
+
+                xhr.upload.onprogress = function (event) {
+                    if (event.lengthComputable) {
+                        const percent = Math.round((event.loaded / event.total) * 100);
+                        updateBar(index, percent, "Uploading...");
+                    }
+                };
+
+                xhr.onloadstart = function () {
+                    updateBar(index, 0, "Starting...");
+                };
+
+                xhr.onload = function () {
+                    if (xhr.status >= 200 && xhr.status < 300) {
+                        markSuccess(index);
+                        resolve();
+                    } else {
+                        let errorMessage = "Upload failed.";
+
+                        try {
+                            const result = JSON.parse(xhr.responseText);
+                            errorMessage = result.message || errorMessage;
+                        } catch { }
+
+                        markFailure(index, errorMessage);
+                        reject(errorMessage);
+                    }
+                };
+
+                xhr.onerror = function () {
+                    const errorMessage = "A network or server error occurred.";
+                    markFailure(index, errorMessage);
+                    reject(errorMessage);
+                };
+
+                xhr.send(formData);
+            });
+        }
+
+        uploadForm.addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            globalMessage.innerHTML = "";
+
+            const restaurantId = document.getElementById("RestaurantId").value.trim();
+            const restaurantName = document.getElementById("RestaurantName").value.trim();
+            const menuId = "menu-" + Date.now(); // Generate a unique menu ID based on timestamp
+            const files = filesInput.files;
+
+            if (!restaurantId || !restaurantName) {
+                globalMessage.innerHTML = `
+                    <div class="alert alert-danger mt-3">
+                        Restaurant ID and Restaurant Name are required.
+                    </div>
+                `;
+                return;
+            }
+
+            if (!files || files.length === 0) {
+                globalMessage.innerHTML = `
+                    <div class="alert alert-danger mt-3">
+                        Please select at least one file.
+                    </div>
+                `;
+                return;
+            }
+
+            renderProgressBars(files);
+
+            let successCount = 0;
+            let failCount = 0;
+
+            for (let i = 0; i < files.length; i++) {
+                try {
+                    await uploadSingleFile(files[i], i, restaurantId, restaurantName, menuId;
+                    successCount++;
+                } catch {
+                    failCount++;
+                }
+            }
+
+            if (failCount === 0) {
+                globalMessage.innerHTML = `
+                    <div class="alert alert-success mt-3">
+                        All files uploaded successfully and queued for OCR processing.
+                    </div>
+                `;
+            } else {
+                globalMessage.innerHTML = `
+                    <div class="alert alert-warning mt-3">
+                        Upload complete. Successful: ${successCount}, Failed: ${failCount}.
+                    </div>
+                `;
+            }
+
+            uploadForm.reset();
+        });
+    </script>
+}

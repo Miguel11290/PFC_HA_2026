@@ -1,0 +1,13 @@
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\bin\Debug\net8.0\Shared.deps.json
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\bin\Debug\net8.0\Shared.dll
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\bin\Debug\net8.0\Shared.pdb
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.sourcelink.json
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.dll
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\refint\Shared.dll
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\Shared.pdb
+C:\Users\Miguel Bonello\Documents\GitHub\PFC_HA_2026\MB_RestaurantSystem\Shared\obj\Debug\net8.0\ref\Shared.dll

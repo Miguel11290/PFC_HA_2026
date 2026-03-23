@@ -1,0 +1,479 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\views\\upload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\views\\upload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\models\\singlefileuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\models\\singlefileuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\ocrprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|solutionrelative:ocrprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\ocrprocessor\\services\\visionocrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|solutionrelative:ocrprocessor\\services\\visionocrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\ocrprocessor\\services\\firestoreupdateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|solutionrelative:ocrprocessor\\services\\firestoreupdateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\ocrprocessor\\models\\menuuploadevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|solutionrelative:ocrprocessor\\models\\menuuploadevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\ocrprocessor\\models\\pubsubpushenvelope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|solutionrelative:ocrprocessor\\models\\pubsubpushenvelope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\shared\\options\\gcpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|solutionrelative:shared\\options\\gcpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\ocrprocessor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{516F8D73-B62D-4A70-94E3-A5E6D9A9C51B}|OcrProcessor\\OcrProcessor.csproj|solutionrelative:ocrprocessor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\models\\uploadmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\models\\uploadmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\models\\uploadresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\models\\uploadresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\controllers\\testcloudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\controllers\\testcloudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\shared\\models\\menuitemdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|solutionrelative:shared\\models\\menuitemdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\shared\\models\\menuhistorydocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|solutionrelative:shared\\models\\menuhistorydocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\shared\\models\\menuimagedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|solutionrelative:shared\\models\\menuimagedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\shared\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|solutionrelative:shared\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\services\\firestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\services\\firestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\services\\ifirestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\services\\ifirestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\shared\\options\\googleauthoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|solutionrelative:shared\\options\\googleauthoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\services\\pubsubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\services\\pubsubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\menuwebapp\\services\\ipubsubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD40164-726C-4670-9151-97170201CEE1}|MenuWebApp\\MenuWebApp.csproj|solutionrelative:menuwebapp\\services\\ipubsubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|c:\\users\\miguel bonello\\documents\\github\\pfc_ha_2026\\mb_restaurantsystem\\shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A19B8CD-B379-4903-8E8D-E8E3C2E64E95}|Shared\\Shared.csproj|solutionrelative:shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Program.cs",
+              "RelativeDocumentMoniker": "OcrProcessor\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Program.cs",
+              "RelativeToolTip": "OcrProcessor\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:49:13.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FirestoreUpdateService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Services\\FirestoreUpdateService.cs",
+              "RelativeDocumentMoniker": "OcrProcessor\\Services\\FirestoreUpdateService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Services\\FirestoreUpdateService.cs",
+              "RelativeToolTip": "OcrProcessor\\Services\\FirestoreUpdateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:34:32.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuUploadEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Models\\MenuUploadEvent.cs",
+              "RelativeDocumentMoniker": "OcrProcessor\\Models\\MenuUploadEvent.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Models\\MenuUploadEvent.cs",
+              "RelativeToolTip": "OcrProcessor\\Models\\MenuUploadEvent.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:32:22.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PubSubPushEnvelope.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Models\\PubSubPushEnvelope.cs",
+              "RelativeDocumentMoniker": "OcrProcessor\\Models\\PubSubPushEnvelope.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Models\\PubSubPushEnvelope.cs",
+              "RelativeToolTip": "OcrProcessor\\Models\\PubSubPushEnvelope.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:26:27.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\appsettings.json",
+              "RelativeDocumentMoniker": "OcrProcessor\\appsettings.json",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\appsettings.json",
+              "RelativeToolTip": "OcrProcessor\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-23T16:23:19.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SingleFileUploadRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Models\\SingleFileUploadRequest.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Models\\SingleFileUploadRequest.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Models\\SingleFileUploadRequest.cs",
+              "RelativeToolTip": "MenuWebApp\\Models\\SingleFileUploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:13:27.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UploadResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Models\\UploadResponseViewModel.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Models\\UploadResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Models\\UploadResponseViewModel.cs",
+              "RelativeToolTip": "MenuWebApp\\Models\\UploadResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:08:13.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Views\\Upload\\Index.cshtml",
+              "RelativeDocumentMoniker": "MenuWebApp\\Views\\Upload\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Views\\Upload\\Index.cshtml",
+              "RelativeToolTip": "MenuWebApp\\Views\\Upload\\Index.cshtml",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAkwMQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T11:19:48.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "MenuWebApp\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwDIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:47:52.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VisionOcrService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Services\\VisionOcrService.cs",
+              "RelativeDocumentMoniker": "OcrProcessor\\Services\\VisionOcrService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\OcrProcessor\\Services\\VisionOcrService.cs",
+              "RelativeToolTip": "OcrProcessor\\Services\\VisionOcrService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:46:06.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UploadMenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Models\\UploadMenuViewModel.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Models\\UploadMenuViewModel.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Models\\UploadMenuViewModel.cs",
+              "RelativeToolTip": "MenuWebApp\\Models\\UploadMenuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:39:13.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MenuItemDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\MenuItemDocument.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\MenuItemDocument.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\MenuItemDocument.cs",
+              "RelativeToolTip": "Shared\\Models\\MenuItemDocument.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:31:45.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MenuWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\appsettings.json",
+              "RelativeToolTip": "MenuWebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-23T09:33:06.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GcpOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Options\\GcpOptions.cs",
+              "RelativeDocumentMoniker": "Shared\\Options\\GcpOptions.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Options\\GcpOptions.cs",
+              "RelativeToolTip": "Shared\\Options\\GcpOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:33:25.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IFirestoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\IFirestoreService.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Services\\IFirestoreService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\IFirestoreService.cs",
+              "RelativeToolTip": "MenuWebApp\\Services\\IFirestoreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:38:43.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PubSubService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\PubSubService.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Services\\PubSubService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\PubSubService.cs",
+              "RelativeToolTip": "MenuWebApp\\Services\\PubSubService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:09:39.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuHistoryDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\MenuHistoryDocument.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\MenuHistoryDocument.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\MenuHistoryDocument.cs",
+              "RelativeToolTip": "Shared\\Models\\MenuHistoryDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:32:21.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GoogleAuthOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Options\\GoogleAuthOptions.cs",
+              "RelativeDocumentMoniker": "Shared\\Options\\GoogleAuthOptions.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Options\\GoogleAuthOptions.cs",
+              "RelativeToolTip": "Shared\\Options\\GoogleAuthOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:34:42.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\Restaurant.cs",
+              "RelativeToolTip": "Shared\\Models\\Restaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:22:57.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TestCloudController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Controllers\\TestCloudController.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Controllers\\TestCloudController.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Controllers\\TestCloudController.cs",
+              "RelativeToolTip": "MenuWebApp\\Controllers\\TestCloudController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:19:18.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MenuImageDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\MenuImageDocument.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\MenuImageDocument.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Models\\MenuImageDocument.cs",
+              "RelativeToolTip": "Shared\\Models\\MenuImageDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:23:35.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\IStorageService.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Services\\IStorageService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\IStorageService.cs",
+              "RelativeToolTip": "MenuWebApp\\Services\\IStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:36:48.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\StorageService.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Services\\StorageService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\StorageService.cs",
+              "RelativeToolTip": "MenuWebApp\\Services\\StorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:44:06.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FirestoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\FirestoreService.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Services\\FirestoreService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\FirestoreService.cs",
+              "RelativeToolTip": "MenuWebApp\\Services\\FirestoreService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:57:51.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Program.cs",
+              "RelativeToolTip": "MenuWebApp\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:17:33.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IPubSubService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\IPubSubService.cs",
+              "RelativeDocumentMoniker": "MenuWebApp\\Services\\IPubSubService.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\MenuWebApp\\Services\\IPubSubService.cs",
+              "RelativeToolTip": "MenuWebApp\\Services\\IPubSubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:42:05.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Class1.cs",
+              "RelativeDocumentMoniker": "Shared\\Class1.cs",
+              "ToolTip": "C:\\Users\\Miguel Bonello\\Documents\\GitHub\\PFC_HA_2026\\MB_RestaurantSystem\\Shared\\Class1.cs",
+              "RelativeToolTip": "Shared\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:24:50.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

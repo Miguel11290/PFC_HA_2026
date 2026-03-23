@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MenuWebApp/MenuWebApp.csproj" />
+  <Project Path="OcrProcessor/OcrProcessor.csproj" />
+  <Project Path="Shared/Shared.csproj" />
+  <Project Path="TranslateFunction/TranslateFunction.csproj" />
+</Solution>
